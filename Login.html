@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>注册页面</title>
     <link rel="stylesheet" href="./css/Login.css">
+    <script src="https://unpkg.com/jquery@3.6.0/dist/jquery.min.js"></script>
     <script src="js/jquery-3.5.1.min.js" type="text/javascript" charset="utf-8"></script>
     <script src="./js/love.js"></script>
     <script type="text/javascript" src="/js/snow.js"></script>
@@ -20,7 +21,7 @@
         <h1>登录</h1>
         <form action="./index.html"> 
             <input type="text" id="uname" value="" placeholder="用户名"/><br>
-            <input type="password" class="pwd" value="" placeholder="密码"/><br>
+            <input type="password" id ="pwd" value="" placeholder="密码"/><br>
             <input type="submit" id="but" value="登录" onclick="return checkuser()"/> 
         </form>
         <a href="./register.html">
